@@ -28,7 +28,7 @@ namespace AccessLogs.Data
                 BatchSize = 250000
             };
 
-            var data = new DataTable();
+            using var data = new DataTable();
             var properties = typeof(Log).GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
             foreach (var propertyInfo in properties)
