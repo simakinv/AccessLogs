@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AccessLogs.Loader": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\..\\NASA_access_log_Jul95\\access_log_Jul95"
+    }
+  }
+}
